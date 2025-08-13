@@ -1,0 +1,37 @@
+# YouTube Live Integration Requirements
+# Install with: pip install -r requirements-youtube-integration.txt
+
+# Core YouTube API
+google-api-python-client==2.108.0
+google-auth==2.23.4
+google-auth-oauthlib==1.1.0
+google-auth-httplib2==0.1.1
+
+# Video processing and transcription
+yt-dlp==2023.11.16
+openai-whisper==20231117
+torch==2.1.1
+torchaudio==2.1.1
+
+# Web framework for webhooks
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+httpx==0.25.2
+
+# Database and embeddings (if not already installed)
+asyncpg==0.29.0
+sentence-transformers==2.2.2
+numpy==1.24.3
+
+# Utilities
+python-dotenv==1.0.0
+aiofiles==23.2.1
+python-multipart==0.0.6
+
+# Optional: For enhanced audio processing
+librosa==0.10.1
+soundfile==1.0.3
+
+# Optional: For better error handling and logging
+structlog==23.2.0
+rich==13.7.0

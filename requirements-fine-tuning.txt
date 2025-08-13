@@ -1,0 +1,20 @@
+# Fine-tuning specific dependencies
+torch>=2.0.0
+transformers>=4.35.0
+datasets>=2.14.0
+peft>=0.6.0
+accelerate>=0.24.0
+bitsandbytes>=0.41.0
+sentence-transformers>=2.2.0
+scikit-learn>=1.3.0
+numpy>=1.24.0
+pandas>=2.0.0
+tqdm>=4.65.0
+
+# Optional: For better performance
+# triton>=2.0.0  # Only for CUDA 11.8+
+# flash-attn>=2.3.0  # Only for specific GPU architectures
+
+# Development and monitoring
+wandb>=0.15.0  # Optional: for experiment tracking
+tensorboard>=2.13.0  # Optional: for training visualization 
